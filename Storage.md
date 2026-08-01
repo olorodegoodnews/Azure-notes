@@ -30,3 +30,24 @@ A Blob Container is a logical container used to organize blobs inside an Azure S
 ### What I Learned
 
 I created my first Blob Container inside an Azure Storage Account and learned that it acts like a folder for organizing blob data.
+
+
+---
+
+## Azure Blob
+
+A blob is a file stored in Azure Blob Storage.
+
+### Common Blob Types
+
+- Images
+- Documents
+- Videos
+- Backups
+- Application files
+
+### What I Learned
+
+- A Blob Container stores blobs.
+- Files are uploaded into a Blob Container.
+- Azure Blob Storage is designed for unstructured data.
