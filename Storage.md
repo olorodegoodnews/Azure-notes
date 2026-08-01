@@ -76,3 +76,27 @@ Azure Blob Containers support three access levels:
 ### What I Learned
 
 I reviewed the available Blob Container access levels and understood when each option should be used.
+
+
+---
+
+## Azure Lifecycle Management
+
+Lifecycle Management automatically manages blob data based on rules.
+
+### Benefits
+
+- Reduces storage costs
+- Automates blob management
+- Moves data between access tiers
+- Deletes old data based on retention policies
+
+### Common Actions
+
+- Move to Cool tier
+- Move to Archive tier
+- Delete old blobs
+
+### What I Learned
+
+I created a Lifecycle Management rule that automatically moves blobs to the Cool access tier after 30 days, helping optimize storage costs.
