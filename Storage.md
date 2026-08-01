@@ -100,3 +100,36 @@ Lifecycle Management automatically manages blob data based on rules.
 ### What I Learned
 
 I created a Lifecycle Management rule that automatically moves blobs to the Cool access tier after 30 days, helping optimize storage costs.
+
+
+---
+
+## Blob Versioning
+
+Blob Versioning automatically saves previous versions of a blob whenever it is modified.
+
+### Benefits
+
+- Recover overwritten files
+- Track file changes
+- Improve data protection
+
+---
+
+## Blob Soft Delete
+
+Soft Delete allows deleted blobs to be recovered before they are permanently removed.
+
+### Benefits
+
+- Recover accidentally deleted files
+- Protect important business data
+- Improve disaster recovery
+
+### Best Practice
+
+Enable both Blob Versioning and Soft Delete for production storage accounts.
+
+### What I Learned
+
+I enabled Blob Versioning and Soft Delete on my Azure Storage Account to protect blob data from accidental modification or deletion.
