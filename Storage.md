@@ -51,3 +51,28 @@ A blob is a file stored in Azure Blob Storage.
 - A Blob Container stores blobs.
 - Files are uploaded into a Blob Container.
 - Azure Blob Storage is designed for unstructured data.
+
+
+---
+
+## Blob Container Access Levels
+
+Azure Blob Containers support three access levels:
+
+### Private
+
+- Only authorized users can access blobs.
+- Recommended for production workloads.
+
+### Blob
+
+- Anonymous users can read blobs if they know the URL.
+- They cannot list all blobs in the container.
+
+### Container
+
+- Anonymous users can list and read all blobs in the container.
+
+### What I Learned
+
+I reviewed the available Blob Container access levels and understood when each option should be used.
