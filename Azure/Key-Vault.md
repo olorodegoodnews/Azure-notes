@@ -58,3 +58,20 @@ Retrieving a secret means securely reading a stored value from Azure Key Vault.
 ### What I Learned
 
 I retrieved a secret from Azure Key Vault and learned how Azure securely provides sensitive information only to authorized users or applications.
+
+
+---
+
+## Soft Delete
+
+Soft Delete protects secrets, keys, and certificates from accidental deletion.
+
+### Benefits
+
+- Recover deleted secrets.
+- Protect against accidental deletion.
+- Improve security and business continuity.
+
+### What I Learned
+
+I deleted and recovered a secret using Azure Key Vault Soft Delete and learned how Azure protects sensitive information from permanent loss.
