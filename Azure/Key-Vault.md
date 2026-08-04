@@ -75,3 +75,26 @@ Soft Delete protects secrets, keys, and certificates from accidental deletion.
 ### What I Learned
 
 I deleted and recovered a secret using Azure Key Vault Soft Delete and learned how Azure protects sensitive information from permanent loss.
+
+
+---
+
+## Azure RBAC for Key Vault
+
+Azure RBAC controls who can access Azure Key Vault resources.
+
+### Common Roles
+
+- Key Vault Administrator
+- Key Vault Secrets Officer
+- Key Vault Secrets User
+
+### Benefits
+
+- Least privilege access
+- Improved security
+- Centralized access management
+
+### What I Learned
+
+I reviewed Azure RBAC role assignments for my Key Vault and learned how Azure controls access to secrets using role-based permissions.
